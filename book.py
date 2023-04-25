@@ -120,6 +120,7 @@ class Book():
         self.parse_chapter_outline()
         self.chapter_scene_list = []
         self.parsed_chapter_scene_lists = []
+        self.chapter_text = []
         for chapter in self.parsed_chapters:
             self.ensure_chapter_scene_list(chapter)
             scene_list = self.chapter_scene_list[chapter["number"]]

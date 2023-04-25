@@ -1,4 +1,6 @@
 import argparse
+import os
+
 from book import Book
 
 # Parse book_dir, description, and genre from command line
